@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
                     this is Test3Project develop by xueersi Base component library team
                    DESC
   #项目主页地址
-  s.homepage     = "https://github.com/hu646641434/XES_test3"
+  s.homepage     = "https://github.com/hu646641434/XES_test3.git"
 
   #spec.screenshots = [ 'http://dl.dropbox.com/u/378729/MBProgressHUD/1.png', 'http://dl.dropbox.com/u/378729/MBProgressHUD/2.png' ]
   #
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   # s.tvos.deployment_target = "9.0"
 
   #库索引地址
-  s.source       = { :git => "https://github.com/hu646641434/XES_test3", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/hu646641434/XES_test3.git", :tag => s.version.to_s }
 
   #需要包含的源文件
   s.source_files  = "Test3Project/**/*.{h,m}"
